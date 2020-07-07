@@ -1,5 +1,7 @@
+from django.conf.urls import url
 from django.urls import path
 
+from clients import views
 from .views import (
     ClientListView,
     ClientUpdateView,
@@ -18,4 +20,8 @@ urlpatterns = [
     path('new/', ClientCreateView.as_view(), name='client_new'),
     path('', ClientListView.as_view(), name='client_list'),
 
+
+
     ]
+
+
