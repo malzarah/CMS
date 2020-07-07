@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',
     'clients',
-    'django.contrib.postgres'
+    'django.contrib.postgres',
     'crispy_forms',
 ]
 
